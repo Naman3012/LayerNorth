@@ -15,12 +15,38 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<p>Browse our latest products</p>",
+            "text": "<h1>Precision printed. Built to last.</h1>",
             "text_color": "{{ settings.color_palette.background }}",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
-            "type_preset": "h2",
+            "type_preset": "h1",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_sub_6Rk2dG": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Smart, functional 3D printed products designed for modern workspaces and everyday routines.</p>",
+            "text_color": "{{ settings.color_palette.background }}",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "paragraph",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "line_height": "normal",
@@ -41,13 +67,13 @@
           "type": "button",
           "name": "t:names.button",
           "settings": {
-            "label": "Shop all",
+            "label": "Shop all products",
             "link": "shopify://collections/all",
             "open_in_new_tab": false,
             "style_class": "button-custom",
-            "custom_button_background": "rgba(0,0,0,0)",
-            "custom_button_text": "{{ settings.color_palette.background }}",
-            "custom_button_border": "{{ settings.color_palette.background }}",
+            "custom_button_background": "#3B82F6",
+            "custom_button_text": "#FFFFFF",
+            "custom_button_border": "#3B82F6",
             "width": "fit-content",
             "custom_width": 100,
             "width_mobile": "fit-content",
@@ -58,6 +84,7 @@
       },
       "block_order": [
         "text_YLPk4p",
+        "text_sub_6Rk2dG",
         "button_H9gpTf"
       ],
       "name": "t:names.hero",
@@ -89,6 +116,165 @@
         "reflection_opacity": 75,
         "padding-block-start": 100,
         "padding-block-end": 72
+      }
+    },
+    "marquee_brand_LN": {
+      "type": "marquee",
+      "blocks": {
+        "text_precision": {
+          "type": "text",
+          "settings": {
+            "text": "PRECISION",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "var(--font-size--h4)",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "uppercase",
+            "wrap": "nowrap",
+            "width": "fit-content"
+          },
+          "blocks": {}
+        },
+        "dot_1": {
+          "type": "text",
+          "settings": {
+            "text": "•",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "var(--font-size--h4)",
+            "line_height": "tight",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap",
+            "width": "fit-content"
+          },
+          "blocks": {}
+        },
+        "text_smart": {
+          "type": "text",
+          "settings": {
+            "text": "SMART",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "var(--font-size--h4)",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "uppercase",
+            "wrap": "nowrap",
+            "width": "fit-content"
+          },
+          "blocks": {}
+        },
+        "dot_2": {
+          "type": "text",
+          "settings": {
+            "text": "•",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "var(--font-size--h4)",
+            "line_height": "tight",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap",
+            "width": "fit-content"
+          },
+          "blocks": {}
+        },
+        "text_functional": {
+          "type": "text",
+          "settings": {
+            "text": "FUNCTIONAL",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "var(--font-size--h4)",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "uppercase",
+            "wrap": "nowrap",
+            "width": "fit-content"
+          },
+          "blocks": {}
+        },
+        "dot_3": {
+          "type": "text",
+          "settings": {
+            "text": "•",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "var(--font-size--h4)",
+            "line_height": "tight",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap",
+            "width": "fit-content"
+          },
+          "blocks": {}
+        },
+        "text_durable": {
+          "type": "text",
+          "settings": {
+            "text": "DURABLE",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "var(--font-size--h4)",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "uppercase",
+            "wrap": "nowrap",
+            "width": "fit-content"
+          },
+          "blocks": {}
+        },
+        "dot_4": {
+          "type": "text",
+          "settings": {
+            "text": "•",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "var(--font-size--h4)",
+            "line_height": "tight",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "nowrap",
+            "width": "fit-content"
+          },
+          "blocks": {}
+        },
+        "text_modern": {
+          "type": "text",
+          "settings": {
+            "text": "MODERN",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "var(--font-size--h4)",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "uppercase",
+            "wrap": "nowrap",
+            "width": "fit-content"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_precision",
+        "dot_1",
+        "text_smart",
+        "dot_2",
+        "text_functional",
+        "dot_3",
+        "text_durable",
+        "dot_4",
+        "text_modern"
+      ],
+      "name": "t:names.marquee",
+      "settings": {
+        "movement_direction": "normal",
+        "background_color": "#F3F4F6",
+        "padding-block-start": 24,
+        "padding-block-end": 24,
+        "gap_between_elements": 48
       }
     },
     "product_list_fa6P9H": {
@@ -280,6 +466,7 @@
   },
   "order": [
     "hero_jVaWmY",
+    "marquee_brand_LN",
     "product_list_fa6P9H"
   ]
 }

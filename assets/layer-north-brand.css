@@ -1,0 +1,100 @@
+/* ============================================================
+   LayerNorth brand system — overrides Horizon theme defaults
+   Matte black #1F1F1F · Electric blue #3B82F6 · Light gray #F3F4F6
+   ============================================================ */
+
+:root {
+  --ln-accent: #3B82F6;
+  --ln-accent-hover: #2563EB;
+  --ln-ink: #1F1F1F;
+  --ln-ink-soft: #2B2B2B;
+  --ln-gray: #F3F4F6;
+  --ln-border: #E5E7EB;
+
+  /* Primary buttons: electric blue */
+  --color-primary-button-text: #FFFFFF;
+  --color-primary-button-background: var(--ln-accent);
+  --color-primary-button-border: var(--ln-accent);
+  --color-primary-button-focus-outline: var(--ln-accent-hover);
+  --color-primary-button-hover-text: #FFFFFF;
+  --color-primary-button-hover-background: var(--ln-accent-hover);
+  --color-primary-button-hover-border: var(--ln-accent-hover);
+}
+
+/* Accent-colored links */
+.link,
+button.link,
+.rte a:where(:not(.button, .button-secondary, .button-unstyled)),
+:is(p, li, .rte, .content) a:where(:not(.button, .button-secondary, .button-unstyled, .header__menu-item)) {
+  color: var(--ln-accent);
+}
+
+.rte a:where(:not(.button, .button-secondary, .button-unstyled)),
+:is(p, li, .content) a:where(:not(.button, .button-secondary, .button-unstyled)) {
+  text-decoration-color: rgb(59 130 246 / 0.45);
+}
+
+/* Inputs: blue focus ring */
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+.field__input:focus-visible {
+  outline-color: var(--ln-accent);
+  border-color: var(--ln-accent);
+}
+
+/* Matte black header + announcement bar */
+.announcement-bar {
+  --color-foreground: #FFFFFF;
+  --color-foreground-rgb: 255 255 255;
+}
+
+#header-component:not([transparent]) {
+  --color-foreground: #FFFFFF;
+  --color-foreground-rgb: 255 255 255;
+  --color-background: var(--ln-ink);
+  --color-border: rgb(255 255 255 / 0.16);
+}
+
+/* Soft shadow on product/media cards */
+:is(.card-gallery, .product-card, resource-card .resource-card__media) {
+  box-shadow: 0 1px 2px rgb(31 31 31 / 0.04), 0 4px 12px rgb(31 31 31 / 0.06);
+}
+
+/* ============================================================
+   Password / coming-soon page
+   ============================================================ */
+.password-main-content,
+.password-main-content .section,
+.password-main-content .section-background {
+  background-color: var(--ln-ink);
+  color: #FFFFFF;
+}
+
+.password-main-content :is(h1, h2, h3, h4, h5, h6, p, a, label) {
+  color: #FFFFFF;
+}
+
+.password-main-content .field__input {
+  background-color: #FFFFFF;
+  color: var(--ln-ink);
+  border-color: rgb(255 255 255 / 0.25);
+}
+
+.password-main-content .field__input::placeholder {
+  color: rgb(31 31 31 / 0.55);
+}
+
+.password-main-content .email-signup__message,
+.password-main-content .password-content {
+  color: #FFFFFF;
+}
+
+.password-main-content .password-dialog {
+  background-color: #FFFFFF;
+  color: var(--ln-ink);
+}
+
+.password-main-content .password-dialog :is(h2, p, label) {
+  color: var(--ln-ink);
+}
