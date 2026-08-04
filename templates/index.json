@@ -124,7 +124,7 @@
         "text_precision": {
           "type": "text",
           "settings": {
-            "text": "PRECISION",
+            "text": "<p>PRECISION</p>",
             "type_preset": "custom",
             "font": "var(--font-body--family)",
             "font_size": "var(--font-size--h4)",
@@ -139,7 +139,7 @@
         "dot_1": {
           "type": "text",
           "settings": {
-            "text": "•",
+            "text": "<p>•</p>",
             "type_preset": "custom",
             "font": "var(--font-body--family)",
             "font_size": "var(--font-size--h4)",
@@ -154,7 +154,7 @@
         "text_smart": {
           "type": "text",
           "settings": {
-            "text": "SMART",
+            "text": "<p>SMART</p>",
             "type_preset": "custom",
             "font": "var(--font-body--family)",
             "font_size": "var(--font-size--h4)",
@@ -169,7 +169,7 @@
         "dot_2": {
           "type": "text",
           "settings": {
-            "text": "•",
+            "text": "<p>•</p>",
             "type_preset": "custom",
             "font": "var(--font-body--family)",
             "font_size": "var(--font-size--h4)",
@@ -184,7 +184,7 @@
         "text_functional": {
           "type": "text",
           "settings": {
-            "text": "FUNCTIONAL",
+            "text": "<p>FUNCTIONAL</p>",
             "type_preset": "custom",
             "font": "var(--font-body--family)",
             "font_size": "var(--font-size--h4)",
@@ -199,7 +199,7 @@
         "dot_3": {
           "type": "text",
           "settings": {
-            "text": "•",
+            "text": "<p>•</p>",
             "type_preset": "custom",
             "font": "var(--font-body--family)",
             "font_size": "var(--font-size--h4)",
@@ -214,7 +214,7 @@
         "text_durable": {
           "type": "text",
           "settings": {
-            "text": "DURABLE",
+            "text": "<p>DURABLE</p>",
             "type_preset": "custom",
             "font": "var(--font-body--family)",
             "font_size": "var(--font-size--h4)",
@@ -229,7 +229,7 @@
         "dot_4": {
           "type": "text",
           "settings": {
-            "text": "•",
+            "text": "<p>•</p>",
             "type_preset": "custom",
             "font": "var(--font-body--family)",
             "font_size": "var(--font-size--h4)",
@@ -244,7 +244,7 @@
         "text_modern": {
           "type": "text",
           "settings": {
-            "text": "MODERN",
+            "text": "<p>MODERN</p>",
             "type_preset": "custom",
             "font": "var(--font-body--family)",
             "font_size": "var(--font-size--h4)",
